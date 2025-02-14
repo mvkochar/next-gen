@@ -1,0 +1,136 @@
+.home-main {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.home-main-info {
+    width: 1207px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+}
+
+.home-main-caption {
+    margin-left: 80px;
+}
+
+.home-main-start {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: -40px;
+
+    .start-name {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #CE7D63;
+    }
+}
+
+.home-main-features {
+    width: 1167px;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #0F0F0F;
+    border-radius: 12px;
+    list-style-type: none;
+    gap: 20px;
+
+    li {
+        padding-left: 20px;
+        background: url("/public/images/shape.png") no-repeat;
+        background-position: 0;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #676665;
+    }
+}
+
+.home-main-picture {
+    width: 593px;
+    height: 465px;
+    background: url("/public/images/home-main.png") no-repeat;
+    position: relative;
+}
+
+.home-main .estate-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home-main .estate-info {
+    width: 593px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: #1F1F1F;
+}
+
+.home-main .estate-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #F9EFEC;
+}
+
+.home-main .estate-subtitle {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B3B3B2;
+}
+
+.home-statistic {
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.home-statistic-item {
+    width: 280px;
+    height: 150px;
+    padding-top: 30px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+    text-align: center;
+
+    .statistic-item-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #B3B3B2;
+    }
+
+    .statistic-item-value {
+
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 150%;
+        color: #DA9E8B;
+    }
+
+    .statistic-item-more {
+        gap: 10px;
+        width: fit-content;
+        margin:  15px auto 0;
+
+        .more-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #B3B3B2;
+        }
+
+    }
+}
