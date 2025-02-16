@@ -1,0 +1,52 @@
+.services_item {
+    width: 880px;
+    padding: 80px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+}
+
+.services_item_caption {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.services_item_title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #F9EFEC;
+}
+
+.services_item_call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .call_title {
+        font-family: "Roboto Mono", serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #B3B3B2;
+    }
+}
+
+.services_item_desc {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B3B3B2;
+}
+
+.services_item_price {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #F9EFEC;
+}

@@ -134,3 +134,126 @@
 
     }
 }
+
+.home-reasons-box {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.home-reasons-item {
+    width: 430px;
+    padding: 40px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .reasons-item-title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9F7EC;
+    }
+
+    .reasons-item-desc {
+        margin-top: 12px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+
+    .reasons-item-more {
+        margin-top: 40px;
+        gap: 10px;
+
+        .more-title {
+            font-weight: 18;
+            line-height: 150%;
+            color: #B3B3B2;
+        }
+    }
+}
+
+.home-services-box {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    column-gap: 17px;
+    row-gap: 20px;
+}
+
+.home-works {
+    margin-top: 80px;
+}
+
+.home-works-box {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-works-item {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #1F1F1F;
+    border-radius: 20px;
+    gap: 10px;
+
+    .works-item-card {
+        width: 440px;
+        padding: 50px 30px;
+        background-color: #1A1A1A;
+        border-radius: 14px;
+
+        .card-caption {
+            gap: 10px;
+        }
+
+        .card-title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #F9EFEC;
+        }
+
+        .card-details {
+            gap: 8px;
+        }
+
+        .card-details-title {
+            font-family: "Roboto Mono", serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #B3B3B2;
+        }
+    }
+
+    .works-item-category {
+        width: fit-content;
+        margin-top: 30px;
+        padding: 8px 14px;
+        background-color: #1F1F1F;
+        border-radius: 45px;
+        gap: 6px;
+
+        .category-title {
+            font-size: 14px;
+            line-height: 150%;
+            color: #B3B3B2;
+        }
+
+        .category-name {
+            font-weight: 500;
+            font-size: 14px;
+            color: #E6E6E6;
+        }
+    }
+
+    .works-item-desc {
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+}
