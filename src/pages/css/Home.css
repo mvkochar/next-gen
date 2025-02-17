@@ -122,7 +122,7 @@
     .statistic-item-more {
         gap: 10px;
         width: fit-content;
-        margin:  15px auto 0;
+        margin: 15px auto 0;
 
         .more-title {
             font-weight: 500;
@@ -195,10 +195,10 @@
     padding: 10px;
     border: 2px solid #1F1F1F;
     border-radius: 20px;
-    gap: 10px;
+    gap: 20px;
 
     .works-item-card {
-        width: 440px;
+        width: 579.33px;
         padding: 50px 30px;
         background-color: #1A1A1A;
         border-radius: 14px;
@@ -255,5 +255,227 @@
         font-size: 16px;
         line-height: 150%;
         color: #B3B3B2;
+    }
+
+    .works-item-technologies {
+        width: 579.33px;
+        padding: 40px;
+        background-color: #1A1A1A;
+        border-radius: 14px;
+
+        .technologies-title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .technologies-box {
+            width: 499.33px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+
+        .technologies-item {
+            width: fit-content;
+            padding: 10px 16px;
+            background-color: #1F1F1F;
+            border-radius: 45px;
+            font-family: "Roboto Mono", serif;
+            font-size: 16px;
+            line-height: 150%;
+            color: #E6E6E6;
+
+            &:nth-child(4) {
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .worsks-item-team {
+        width: 579.33px;
+        margin-top: 20px;
+        padding: 20px 40px;
+        background-color: #1A1A1A;
+        border-radius: 14px;
+        gap: 40px;
+
+        .team-title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.5;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .team-box {
+            gap: 10px;
+        }
+    }
+
+    .worsks-item-call {
+        display: block;
+        width: 579.33px;
+        margin-top: 20px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background-color: #CE7D63;
+        border-radius: 12px;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0F0F0F;
+    }
+}
+
+.home-testimonials-box {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.home-testimonials-item {
+    width: 430px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #1A1A1A;
+    border-radius: 16px;
+
+    .testimonials-item-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .testimonials-item-desc {
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+
+    .testimonials-item-author {
+        margin-top: 40px;
+        margin-left: -40px;
+        margin-right: -40px;
+        padding: 30px 40px;
+        background-color: #1F1F1F;
+
+        .author-name {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #F3DFD8;
+        }
+
+        .author-pos {
+            font-size: 18px;
+            line-height: 150%;
+            color: #81807E;
+        }
+    }
+}
+
+.home-faq {
+    margin-top: 120px;
+}
+
+.home-faq-content {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.home-faq-box {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home-faq-ask {
+    width: 746px;
+    padding: 60px;
+    background-color: #1A1A1A;
+    box-shadow: 10px 10px 50px rgba(0, 98, 255, 0.03);
+    border-radius: 14px;
+
+    .ask-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .ask-fm {
+        margin-top: 50px;
+        padding-top: 50px;
+        border-top: 1px solid #262626;
+
+        input, label, textarea {
+            display: block;
+        } 
+
+        .input-bl {
+            margin-bottom: 20px;
+        }
+
+        .input-bl-last {
+            margin-bottom: 0;
+        }
+
+        label {
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #F3DFD8;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding-top: 24px;
+            padding-left: 24px;
+            background-color: #0F0F0F;
+            border: 1px solid #0F0F0F;
+            border-radius: 10px;
+            outline: none;
+            font-size: 18px;
+            line-height: 150%;
+            color: #676665;
+
+            &::placeholder {
+                color: #676665;
+            }
+        } 
+
+        input {
+            padding-bottom: 24px;
+        }
+
+        textarea {
+            height: 172px;
+            resize: none;
+        }
+        
+        button {
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            background-color: #CE7D63;
+            border: 1px solid #CE7D63;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 18px;
+            color: #0F0F0F;
+        }
     }
 }

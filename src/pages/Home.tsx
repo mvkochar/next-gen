@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Home.css'
-import { ServicesItem, ServicesList } from '../components'
+import { FaqItem, FaqList, ServicesItem, ServicesList } from '../components'
 
 const Home = () => {
   return (
@@ -162,11 +162,197 @@ const Home = () => {
                 <div className="category-name">6 months</div>
               </div>
               <p className="works-item-desc">
-                An all-in-one health and wellness app that offers personalized 
+                An all-in-one health and wellness app that offers personalized
                 fitness plans, nutrition guidance
               </p>
             </div>
-            <div><img src="/images/works1-pic.png" alt="works1-pic" /></div>
+            <div><img src="/images/works1-pic.png" alt="works1-pic" width={579.33} /></div>
+            <div>
+              <div className="works-item-technologies">
+                <h3 className="technologies-title">Technologies Used</h3>
+                <div className="technologies-box d-f">
+                  <div className="technologies-item">React Native</div>
+                  <div className="technologies-item">Firebase</div>
+                  <div className="technologies-item">Redux</div>
+                  <div className="technologies-item">Rest Api</div>
+                  <div className="technologies-item">MongoDb</div>
+                </div>
+              </div>
+              <div className="worsks-item-team d-f align-center">
+                <h3 className="team-title">Team members</h3>
+                <div className="team-box d-f">
+                  <div><img src="/images/team-avatars/1.png" alt="team-avatars1" /></div>
+                  <div><img src="/images/team-avatars/2.png" alt="team-avatars2" /></div>
+                  <div><img src="/images/team-avatars/3.png" alt="team-avatars3" /></div>
+                  <div><img src="/images/team-avatars/4.png" alt="team-avatars4" /></div>
+                  <div><img src="/images/team-avatars/5.png" alt="team-avatars5" /></div>
+                </div>
+              </div>
+              <a href="" className="worsks-item-call">Book A Call</a>
+            </div>
+          </div>
+          <div className="home-works-item d-f">
+            <div className="works-item-card">
+              <div className="d-f jc-sb">
+                <div className="card-caption d-f align-center">
+                  <div><img src="/images/works2.png" alt="works2" /></div>
+                  <h3 className="card-title">A-Aura Ecommerce</h3>
+                </div>
+                <div className="card-details d-f align-center">
+                  <a href="" className="d-b"><img src="/images/all.png" alt="all" /></a>
+                  <div className="card-details-title">Details</div>
+                </div>
+              </div>
+              <div className="works-item-category d-f align-center">
+                <div className="category-title">Category</div>
+                <div><img src="/images/shape.png" alt="Shape" /></div>
+                <div className="category-name">Web Design & Development</div>
+              </div>
+              <div className="works-item-category d-f align-center" style={{ marginTop: "10px" }}>
+                <div className="category-title">Time Taken</div>
+                <div><img src="/images/shape.png" alt="Shape" /></div>
+                <div className="category-name">3 months</div>
+              </div>
+              <p className="works-item-desc">
+                A complete overhaul of a corporate website to enhance its brand identity and user experience.
+              </p>
+            </div>
+            <div><img src="/images/works2-pic.png" alt="works2-pic" width={579.33} /></div>
+            <div>
+              <div className="works-item-technologies">
+                <h3 className="technologies-title">Technologies Used</h3>
+                <div className="technologies-box d-f">
+                  <div className="technologies-item">WordPress</div>
+                  <div className="technologies-item">PHP</div>
+                  <div className="technologies-item">HTML5</div>
+                  <div className="technologies-item">CSS3</div>
+                  <div className="technologies-item">JavaScript</div>
+                </div>
+              </div>
+              <div className="worsks-item-team d-f align-center">
+                <h3 className="team-title">Team members</h3>
+                <div className="team-box d-f">
+                  <div><img src="/images/team-avatars/6.png" alt="team-avatars6" /></div>
+                  <div><img src="/images/team-avatars/7.png" alt="team-avatars7" /></div>
+                  <div><img src="/images/team-avatars/8.png" alt="team-avatars8" /></div>
+                  <div><img src="/images/team-avatars/9.png" alt="team-avatars9" /></div>
+                  <div><img src="/images/team-avatars/10.png" alt="team-avatars10" /></div>
+                </div>
+              </div>
+              <a href="" className="worsks-item-call">Book A Call</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='page-bl'>
+        <div className="page-bl-caption">
+          <h2 className="caption-title">Testimonials</h2>
+          <div className="caption-all">
+            <a href="" className="d-b"><img src="/images/all.png" alt="all" /></a>
+            <div className="all-title">ALL Testimonials</div>
+          </div>
+        </div>
+        <div className="home-testimonials-box d-f">
+          <div className="home-testimonials-item">
+            <h3 className="testimonials-item-title">NexGen turned our business around!</h3>
+            <p className="testimonials-item-desc">
+              Their digital marketing strategies helped us reach new customers and increase our revenue
+              by 30% within just a few months. Highly recommended!
+            </p>
+            <div className="testimonials-item-author d-f align-center">
+              <div><img src="/images/testimonials-avatars/1.png" alt="testimonials-avatars1" /></div>
+              <div style={{ marginLeft: "15px", marginRight: "65px" }}>
+                <div className="author-name">Sarah Thompson</div>
+                <div className="author-pos">CEO of BlueBloom</div>
+              </div>
+              <a href="" className="d-b"><img src="/images/detail.png" alt="detail" /></a>
+            </div>
+          </div>
+          <div className="home-testimonials-item">
+            <h3 className="testimonials-item-title">NexGen turned our business around!</h3>
+            <p className="testimonials-item-desc">
+              Their digital marketing strategies helped us reach new customers and increase our revenue
+              by 30% within just a few months. Highly recommended!
+            </p>
+            <div className="testimonials-item-author d-f align-center">
+              <div><img src="/images/testimonials-avatars/2.png" alt="testimonials-avatars2" /></div>
+              <div style={{ width: "223px", marginLeft: "15px" }}>
+                <div className="author-name">Wade Warren</div>
+                <div className="author-pos">Art Director</div>
+              </div>
+              <a href="" className="d-b"><img src="/images/detail.png" alt="detail" /></a>
+            </div>
+          </div>
+          <div className="home-testimonials-item">
+            <h3 className="testimonials-item-title">Working with NexGen was a pleasure.</h3>
+            <p className="testimonials-item-desc">
+              Their web design team created a stunning website that perfectly captured our brand's essence.
+              The feedback from our customers has been overwhelmingly positive.
+            </p>
+            <div className="testimonials-item-author d-f align-center">
+              <div><img src="/images/testimonials-avatars/3.png" alt="testimonials-avatars3" /></div>
+              <div style={{ width: "223px", marginLeft: "15px" }}>
+                <div className="author-name">Lisa Williams</div>
+                <div className="author-pos">CEO Of HealthTech</div>
+              </div>
+              <a href="" className="d-b"><img src="/images/detail.png" alt="detail" /></a>
+            </div>
+          </div>
+          <div className="home-testimonials-item">
+            <h3 className="testimonials-item-title">NexGen's web design team brought our vision to life.</h3>
+            <p className="testimonials-item-desc">
+              Their responsive design ensures our website looks stunning on all devices,
+              contributing to increased user engagement.
+            </p>
+            <div className="testimonials-item-author d-f align-center">
+              <div><img src="/images/testimonials-avatars/4.png" alt="testimonials-avatars4" /></div>
+              <div style={{ width: "223px", marginLeft: "15px" }}>
+                <div className="author-name">Jennifer Lee</div>
+                <div className="author-pos">COO of Foodie Haven</div>
+              </div>
+              <a href="" className="d-b"><img src="/images/detail.png" alt="detail" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='home-faq'>
+        <div className="page-bl-caption">
+          <h2 className="caption-title">Frequently Asked Questions</h2>
+          <div className="caption-all">
+            <a href="" className="d-b"><img src="/images/all.png" alt="all" /></a>
+            <div className="all-title">View all</div>
+          </div>
+        </div>
+        <div className="home-faq-content d-f">
+          <div className="home-faq-box d-f">
+            {
+              FaqList.map((faq) => {
+                return (
+                  <FaqItem
+                    key={faq.id}
+                    {...faq}
+                  />
+                )
+              })
+            }
+          </div>
+          <div className="home-faq-ask">
+            <h3 className="ask-title">Ask your question</h3>
+            <form action="" className='ask-fm'>
+              <div className="input-bl">
+                <label htmlFor="askName">Name</label>
+                <input type="text" name='askName' id='askName' placeholder='Enter your name'/>
+              </div>
+              <div className="input-bl">
+                <label htmlFor="askEmail">Email</label>
+                <input type="email" name="askEmail" id="askEmail" placeholder='Enter your email' />
+              </div>
+              <div className="input-bl input-bl-last">
+                <label htmlFor="askMsg">Your Question</label>
+                <textarea name="askMsg" id="askMsg" placeholder='Enter Your Question Here .....'></textarea>
+              </div>
+              <button type="button">Send Your Message</button>
+            </form>
           </div>
         </div>
       </section>
