@@ -1,0 +1,226 @@
+.footer-touch {
+    padding: 80px;
+    background-color: #CE7D63;
+    border-radius: 20px;
+}
+
+.footer-touch-title {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 150%;
+    color: #0F0F0F;
+}
+
+.footer-touch-desc {
+    width: 1187px;
+    margin-top: 4px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #262626;
+}
+
+.footer-touch-action {
+    width: 224px;
+    height: fit-content;
+    padding: 22.38px 34px;
+    background-color: #0F0F0F;
+    border-radius: 12px;
+    align-self: flex-end;
+
+    .action-name {
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #F3DFD8;
+    }
+}
+
+.footer-follow {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #676665;
+    overflow: hidden;
+
+    .follow-wr {
+        gap: 40px;
+        padding-left: 100%;
+        white-space: nowrap;
+        animation: scroll-text 5s linear infinite;
+    }
+
+    .follow-caption {
+        gap: 20px;
+
+    }
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-160%, 0);
+    }
+}
+
+.footer-bar {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.footer-social-bl {
+    width: 364px;
+    height: fit-content;
+    padding: 40px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .social-bl-title {
+        margin-top: 80px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .social-bl-desc {
+        margin-top: 12px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+}
+
+.footer-info-bl {
+    width: 1052px;
+    height: fit-content;
+    padding: 60px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+
+    .info-bl-title {
+        font-family: "Roboto Mono", serif;
+        font-size: 22px;
+        color: #F3DFD8;
+    }
+
+    .info-bl-list {
+        list-style-type: none;
+        margin-top: 30px;
+
+        li {
+            margin-bottom: 18px;
+            font-size: 18px;
+            line-height: 150%;
+            color: #81807E;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            span {
+                display: inline-block;
+                width: fit-content;
+                height: fit-content;
+                margin-left: 8px;
+                padding: 4px 12px;
+                background-color: #262626;
+                border: 1px solid #333333;
+                border-radius: 6px;
+                font-size: 16px;
+                letter-spacing: -.03em;
+                color: #CCCCCC;
+            }
+        }
+    }
+}
+
+.footer-subscribe-bl {
+    width: 1052px;
+    padding: 50px;
+    background-color: #1A1A1A;
+    border-radius: 16px;
+
+    .subscribe-bl-above {
+        font-family: "Roboto Mono", serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #676665;
+    }
+
+    .subscribe-bl-title {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .subscribe-bl-fm {
+        gap: 20px;
+
+        input {
+            width: 394.5px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 20px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #333333;
+            outline: none;
+            font-size: 18px;
+            color: #676665;
+
+            &::placeholder {
+                color: #676665;
+            }
+        }
+
+        button {
+            align-self: flex-end;
+
+        }
+    }
+}
+
+.footer-rights-bl {
+    width: 1052px;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #1A1A1A;
+    border-radius: 16px;
+    font-family: "Roboto Mono", serif;
+    font-size: 18px;
+    line-height: 2;
+    color: #B3B3B2;
+
+    a {
+        color: #B3B3B2;
+    }
+}
+
+.footer-terms {
+    gap: 11px;
+}
+
+.footer-terms-line {
+    width: 27px;
+    height: 0px;
+    background: #B3B3B2;
+    border: 1px solid #232329;
+    transform: rotate(90deg);
+}
