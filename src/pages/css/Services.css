@@ -1,0 +1,305 @@
+.services-main {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.services-main-info {
+    width: 1207px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+}
+
+.services-main-caption {
+    margin-left: 80px;
+}
+
+.services-main-start {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 28px;
+
+    .start-name {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #CE7D63;
+    }
+}
+
+.services-main-features {
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0F0F0F;
+    border-radius: 12px;
+    font-family: "Roboto Mono", serif;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #676665;
+    overflow: hidden;
+
+    .features-wr {
+        gap: 20px;
+        padding-left: 100%;
+        white-space: nowrap;
+        animation: scroll-text 5s linear infinite;
+    }
+
+    .features-caption {
+        gap: 20px;
+    }
+}
+
+.services-main-action {
+    width: 593px;
+    height: 592px;
+    padding-top: 518px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: url("/public/images/services-main.png") no-repeat;
+}
+
+.services-main-view {
+    gap: 10px;
+
+    .view-title {
+        font-family: "Roboto Mono", serif;
+        font-size: 18px;
+        text-transform: lowercase;
+        color: #fff;
+    }
+}
+
+.services-main-tag {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.services-content {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.services-box,
+.services-projects {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.services-projects-item {
+    width: 880px;
+    padding: 30px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+
+    .projects-item-title {
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .projects-item-all {
+        gap: 8px;
+
+        .all-title {
+            font-family: "Roboto Mono", serif;
+            font-weight: 500;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #B3B3B2;
+        }
+    }
+
+    .projects-item-box {
+        margin-top: 24px;
+    }
+
+    .project-container {
+        width: 390px;
+        height: 251px;
+        padding-top: 177px;
+        padding-left: 30px;
+    }
+
+    .project-open {
+        gap: 10px;
+
+        .open-title {
+            font-family: "Roboto Mono", serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+
+    &:nth-child(1) {
+        .project-container {
+            &:nth-child(1) {
+                background: url("/public/images/services-projects/1.png") no-repeat;
+            }
+
+            &:nth-child(2) {
+                background: url("/public/images/services-projects/2.png") no-repeat;
+            }
+        }
+    }
+
+    &:nth-child(2) {
+        .project-container {
+            &:nth-child(1) {
+                background: url("/public/images/services-projects/3.png") no-repeat;
+            }
+
+            &:nth-child(2) {
+                background: url("/public/images/services-projects/4.png") no-repeat;
+            }
+        }
+    }
+
+    &:nth-child(3) {
+        .project-container {
+            &:nth-child(1) {
+                background: url("/public/images/services-projects/5.png") no-repeat;
+            }
+
+            &:nth-child(2) {
+                background: url("/public/images/services-projects/6.png") no-repeat;
+            }
+        }
+    }
+
+    &:nth-child(4) {
+        .project-container {
+            &:nth-child(1) {
+                background: url("/public/images/services-projects/7.png") no-repeat;
+            }
+
+            &:nth-child(2) {
+                background: url("/public/images/services-projects/8.png") no-repeat;
+            }
+        }
+    }
+}
+
+.services-stories {
+    margin-top: 120px;
+}
+
+.services-stories-card {
+    width: 747px;
+    padding: 60px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .card-caption {
+        gap: 14px;
+    }
+
+    .card-title {
+        font-weight: 500;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .card-visit {
+        gap: 10px;
+
+        .visit-title {
+            font-family: "Roboto Mono", serif;
+            font-weight: 500;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #B3B3B2;
+        }
+    }
+
+    .card-info {
+        gap: 12px;
+        margin-top: 50px;
+    }
+
+    .card-info-item {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 16px;
+        background-color: #1F1F1F;
+        border-radius: 45px;
+        gap: 8px;
+        flex-shrink: 0;
+
+        .title {
+            font-size: 18px;
+            line-height: 150%;
+            color: #B3B3B2;
+        }
+
+        .name {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            color: #E6E6E6;
+        }
+    }
+}
+
+.services-stories-tabs {
+    gap: 12px;
+
+    .tabs-btn {
+        width: fit-content;
+        height: fit-content;
+        padding: 18px 24px;
+        background-color: #1F1F1F;
+        border: 1px solid #1F1F1F;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #B3B3B2;
+    }
+
+    .tabs-btn__active {
+        background-color: #CE7D63;
+        border-color: #CE7D63;
+        color: #0F0F0F;
+    }
+}
+
+.servises-stories-about {
+    width: 953px;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .title {
+        font-family: "Roboto Mono", serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .desc {
+        margin-top: 14px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+}

@@ -57,17 +57,6 @@
 
     .follow-caption {
         gap: 20px;
-
-    }
-}
-
-@keyframes scroll-text {
-    0% {
-        transform: translate(0, 0);
-    }
-
-    100% {
-        transform: translate(-160%, 0);
     }
 }
 
