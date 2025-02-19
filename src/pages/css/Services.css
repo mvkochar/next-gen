@@ -71,7 +71,7 @@
     .view-title {
         font-family: "Roboto Mono", serif;
         font-size: 18px;
-        text-transform: lowercase;
+        text-transform: uppercase;
         color: #fff;
     }
 }
