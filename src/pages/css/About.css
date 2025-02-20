@@ -1,0 +1,94 @@
+.about-main {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.about-main-info {
+    width: 1207px;
+    height: fit-content;
+    padding-top: 126px;
+    padding-bottom: 126px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+}
+
+.about-main-caption {
+    margin-left: 80px;
+}
+
+.about-main-start {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 28px;
+
+    .start-name {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #CE7D63;
+    }
+}
+
+.about-main-stats {
+    width: 593px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .stats-box {
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .stats-item {
+        width: 266.5px;
+        padding-top: 30px;
+        height: 150px;
+        background-color: #1F1F1F;
+        border-radius: 14px;
+
+        dl {
+            text-align: center;
+            text-transform: uppercase;
+
+            dt {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 1;
+                color: #B3B3B2;
+            }
+
+            dd {
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 1;
+                color: #F9EFEC;
+            }
+        }
+    }
+
+    .stats-more {
+        width: fit-content;
+        gap: 10px;
+        margin: 40px auto 0;
+
+        .more-title {
+            font-family: "Roboto Mono", serif;
+            font-weight: 500;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #B3B3B2;
+        }
+    }
+}
+
+.about-members-box {
+    margin-top: 20px;
+    gap: 20px;
+}
