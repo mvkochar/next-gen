@@ -7,5 +7,6 @@ import FaqItem from "./FaqItem/FaqItem";
 import FaqList from "./FaqList";
 import Faq from "./Faq";
 import Testimonials from "./Testimonials";
+import Works from "./Works";
 
-export {Header, Main, Footer, ServicesItem, ServicesList, FaqItem, FaqList, Faq, Testimonials}
+export {Header, Main, Footer, ServicesItem, ServicesList, FaqItem, FaqList, Faq, Testimonials, Works}
