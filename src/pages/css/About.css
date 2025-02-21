@@ -92,3 +92,93 @@
     margin-top: 20px;
     gap: 20px;
 }
+
+.about-achievements {
+    margin-top: 120px;
+}
+
+.about-achievements-box,
+.about-awards-box {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.about-achievements-item {
+    width: 440px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .achievements-item-date {
+        margin-left: 30px;
+        font-family: "Roboto Mono", serif;
+        font-size: 20px;
+        line-height: 150%;
+        color: #81807E;
+    }
+
+    .achievements-item-title {
+        margin-top: 16px;
+        padding: 40px 30px;
+        background-color: #1F1F1F;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .achievements-item-desc {
+        height: 108px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+}
+
+.about-awards-item {
+    width: 433px;
+    padding: 40px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+
+    .awards-item-date {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 16px;
+        background-color: #262626;
+        border-radius: 45px;
+        gap: 8px;
+
+        .date-title {
+            font-size: 18px;
+            color: #B3B3B2;
+        }
+
+        .date-value {
+            font-weight: 500;
+            font-size: 18px;
+            color: #E6E6E6;
+        }
+    }
+
+    .awards-item-title {
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+
+    .awards-item-desc {
+        margin-top: 12px;
+        font-size: 18px;
+        line-height: 150%;
+        color: #B3B3B2;
+    }
+}
