@@ -354,6 +354,7 @@
     }
 
     .testimonials-item-desc {
+        height: 108px;
         margin-top: 24px;
         font-size: 18px;
         line-height: 150%;
