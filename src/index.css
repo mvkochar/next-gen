@@ -130,6 +130,30 @@ body {
       color: #B3B3B2;
     }
   }
+
+  .caption-tabs {
+    gap: 12px;
+
+    .tabs-btn {
+      display: block;
+      width: fit-content;
+      padding: 18px 24px;
+      background-color: #1F1F1F;
+      border: 1px solid #1F1F1F;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 500px;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #B3B3B2;
+    }
+
+    .tabs-btn__active {
+      background-color: #CE7D63;
+      border-color: #CE7D63;
+      color: #0F0F0F;
+    }
+  }
 }
 
 @keyframes scroll-text {

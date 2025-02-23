@@ -1,0 +1,128 @@
+.blogs-trends {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.blogs-trends-info {
+    width: 1187px;
+    padding: 60px;
+    background-color: #1A1A1A;
+    border: 1px solid #1A1A1A;
+    border-radius: 14px;
+}
+
+.blogs-trends-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #F9EFEC;
+}
+
+.blogs-trends-features {
+    margin-top: 20px;
+    gap: 20px;
+
+    .features-item {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 16px;
+        background-color: #1F1F1F;
+        border-radius: 45px;
+        gap: 8px;
+
+        .features-item-title {
+            font-size: 18px;
+            color: #B3B3B2;
+        }
+
+        .features-item-value {
+            font-weight: 500;
+            font-size: 18px;
+            color: #E6E6E6;
+        }
+    }
+}
+
+.blogs-trends-desc {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B3B3B2;
+}
+
+.blogs-trends-read {
+    gap: 10px;
+
+    .read-title {
+        font-family: "Roboto Mono", serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #B3B3B2;
+    }
+}
+
+.blogs-trends-date {
+    gap: 12px;
+
+    .date-title {
+        font-size: 18px;
+        color: #B3B3B2;
+    }
+
+    .date-value {
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #F9EFEC;
+    }
+}
+
+.blogs-box {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.blogs-item {
+    width: 580px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #1A1A1A;
+    border-radius: 14px;
+}
+
+.blogs-item-title {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #F9EFEC;
+}
+
+.blogs-item-desc {
+    width: 500px;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B3B3B2;
+}
+
+.blogs-item-read {
+    margin-top: 40px;
+    margin-left: 20px;
+    gap: 10px;
+
+    .read-title {
+        font-family: "Roboto Mono", serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #B3B3B2;
+    }
+}
