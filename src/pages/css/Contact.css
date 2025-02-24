@@ -263,12 +263,15 @@
         width: 288px;
         padding-top: 18.5px;
         padding-bottom: 18.5px;
+        padding-left: 34px;
         background: #CE7D63 url("/public/images/arrow1.svg") no-repeat 91%;
         border: 1px solid #CE7D63;
         border-radius: 12px;
         cursor: pointer;
         font-weight: 500;
         font-size: 18px;
+        text-transform: uppercase;
+        text-align: left;
         color: #0F0F0F;
     }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Blogs.css'
 import { Faq, Testimonials } from '../components'
+import { Link } from 'react-router-dom'
 
 const Blogs = () => {
     return (
@@ -74,7 +75,7 @@ const Blogs = () => {
                             Learn the principles of minimalism, how to effectively communicate with fewer elements...
                         </p>
                         <div className="blogs-item-read d-f align-center">
-                            <a href="" className="d-b"><img src="/images/all.png" alt="all" /></a>
+                            <Link to="/blogs-open" className="d-b"><img src="/images/all.png" alt="all" /></Link>
                             <div className="read-title">Read Full Blog</div>
                         </div>
                     </div>
